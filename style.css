@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/* header */
 .header {
     display: flex;
     background-color: #1F2937;
@@ -31,4 +32,42 @@ body {
 .linkthree {
     margin-right: 20px;
     margin-left: 20px;
+}
+
+/* Body One */
+.bodyone {
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.ppgirl {
+    display: flex;
+    font-size: 48px;
+    font-weight: 1000px;
+    color: #F9FAF8;
+    padding: 100px;
+}
+
+.chemicalx {
+    display: flex;
+    height: 250px;
+    width: 200px;
+    margin-right: 20px;
+    float: right;
+    margin-bottom: 80px;
+    flex-grow: 0;
+}
+
+.button1 {
+    display: flex;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    background-color: #1373f8;
+    color: white;
+    height: 50px;
+    width: 100px;
+    align-items: baseline;
+    border-radius: 12px
 }
