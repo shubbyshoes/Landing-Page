@@ -7,6 +7,7 @@ body {
     display: flex;
     background-color: #1F2937;
     height: 70px;
+    font-weight: 700;
 }
 
 .main {
@@ -39,6 +40,8 @@ body {
     display: flex;
     background-color: #1F2937;
     width: 100%;
+    height: 400px;
+    
 }
 
 .ppgirl {
@@ -47,27 +50,53 @@ body {
     font-weight: 1000px;
     color: #F9FAF8;
     padding: 100px;
+    font-weight: 700;
+    position: absolute; top: -25px; left: -80px;
 }
 
 .chemicalx {
     display: flex;
     height: 250px;
-    width: 200px;
-    margin-right: 20px;
-    float: right;
-    margin-bottom: 80px;
-    flex-grow: 0;
+    width: 243px;
+    position:fixed;
+    top: 150px;
+    right: 50px;
+    border: solid #3882F6 5px;
+    border-radius: 8px;
 }
 
-.button1 {
+.learn {
     display: flex;
-    text-align: center;
-    padding: 15px 32px;
-    text-decoration: none;
-    background-color: #1373f8;
     color: white;
-    height: 50px;
+    background-color: #3882F6;
+    height: 30px;
     width: 100px;
-    align-items: baseline;
-    border-radius: 12px
+    position:relative;
+    flex-shrink: 0;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+}
+
+.movementofbutton {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+.aboutbox {
+    display: flex;
+    height: 200px;
+    width: 80%;
+    position:relative; top: 100px; left: 25px;
+    
+}
+
+.about {
+    display: flex;
+    color: white;
+    font-size: 20px;
 }
